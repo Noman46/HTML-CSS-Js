@@ -1,0 +1,61 @@
+ <body>
+
+        <div class="container">
+            
+                <table class="table table-striped table-dark">
+                    <tbody>
+                        <tr>
+                            <th>Name</th>
+                            <td class="col-md-2">Muhammad Ibrahim Khalil Noman</td>
+                        </tr>
+                        <tr>
+                            <th >Student-ID</th>
+                            <td class="col-md-2">It-12046</td>
+                        </tr>
+                        <tr>
+                            <th >Age</th>
+                            <td class="col-md-2">25</td>
+                        </tr>
+                        <tr>
+                            <th>Disease</th>
+                            <td class="col-md-2">Fever</td>
+                        </tr>
+                        <tr>
+                            <th>Medicine</th>
+                            <td class="col-md-2">Napa, Ace+, Flymoxil</td>
+                        </tr>
+                        <tr>
+                            <th>Strength</th>
+                            <td class="col-md-2">500mg, 500mg, 250mg</td>
+                        </tr>
+                        <tr>
+                            <th>Route</th>
+                            <td class="col-md-2">Mouth</td>
+                        </tr>
+                        <tr>
+                            <th>Quantity</th>
+                            <td class="col-md-2">10+10+10</td>
+                        </tr>
+                        <tr>
+                            <th>Frequency</th>
+                            <td class="col-md-2">twice in a day</td>
+                        </tr>
+                        <tr>
+                            <th>Start-Date</th>
+                            <td class="col-md-2">2/3/4</td>
+                        </tr>
+                         <tr>
+                            <th>End-date</th>
+                            <td class="col-md-2">2/3/4</td>
+                        </tr>
+                    </tbody>
+
+
+
+                </table>
+
+           
+        </div>
+
+
+    </body>
