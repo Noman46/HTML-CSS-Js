@@ -1,0 +1,153 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Profile || Donar</title>
+<link rel="stylesheet" type="text/css" href="profile.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+	$(function() {
+		$("#datepicker").datepicker();
+	});
+</script>
+<style>
+
+body
+{
+margin:0px;
+padding:0px;
+background-size:cover;
+font-family:sans-serif;
+}
+
+.title
+{
+text-align:center;
+padding:50px 0 20px;
+}
+
+.title h1
+{
+margin:0;
+padding:0;
+color: black;
+text-transform: uppercase;
+font-size: 36px;
+
+}
+
+.container
+{
+width:60%;
+height:600px;
+background: #fff;
+margin: 0 auto;
+border: 2px solid #fff;
+box-shadow: 0 15px 40px rgba(0,0,0,.5);
+opacity:0.95;
+}
+
+.container .left
+{
+
+width:206px;
+height:206px;
+margin: 1px;
+background-size:cover;
+border: 2px solid black;
+box-sizing: border-box;
+}
+
+
+
+</style>
+</head>
+
+
+<body background="image/login.jpg">
+
+
+	<div class="title">
+		<h1>Your Profile</h1>
+	</div>
+
+	<div class="container">
+		<div class="left">
+			<table>
+				<tr>
+					<img src="image/pro.jpg" height="200" width="200" />
+				</tr>
+			</table>
+		</div>
+		<div>
+			<div>
+				<table cellpadding="5" border="1">
+					<td>Noman Ibrahim</td>
+					<td>O positive</
+					<td>
+				</table>
+			</div>
+			
+			
+			<h2 align="center">
+				<font><strong>Retrieve data from database in jsp</strong></font>
+			</h2>
+			<table align="center" cellpadding="5" cellspacing="5" border="1">
+				<tr>
+
+				</tr>
+				<tr bgcolor="#A52A2A">
+					<td><b>NAME</b></td>
+					<td><b>USERNAME</b></td>
+					<td><b>BLOODGROOP</b></td>
+					<td><b>AGE</b></td>
+					<td><b>MobileNumber</b></td>
+				</tr>
+			
+				<tr bgcolor="#DEB887">
+
+					<td>Noman Ibrahim</td>
+					<td>Ibrahim</td>
+					<td>O positive</td>
+					<td>25</td>
+					<td>4325832957</td>
+
+				</tr>
+
+				
+			</table>
+
+
+
+			<div>
+
+				<h3>Last Date of Your Donation</h3>
+				<form action="date" method="post">
+					<label for="datepicker">Enter Your Date of Birth:</label> <input
+						type="text" name="dob"> 
+						<input type="Password" name="password" placeholder="......">
+						
+						<input
+						type="submit" value="Submit">
+				</form>
+
+
+
+
+
+
+
+
+				
+			</div>
+
+		</div>
+</body>
+
+
+
+
+</html>
